@@ -36,7 +36,7 @@ It provides both:
 
 ## Example: protobuf_example project
 
- - 1. Install **pb-rs** binary to convert your proto file into a **quick-protobuf** compatible source code
+ 1. Install **pb-rs** binary to convert your proto file into a **quick-protobuf** compatible source code
 
 ```sh
 cargo install pb-rs
@@ -45,7 +45,7 @@ pb-rs /path/to/your/protobuf/file.proto
 # /path/to/your/protobuf/file.rs
 ```
 
- - 2. Add a dependency to quick-protobuf
+ 2. Add a dependency to quick-protobuf
 
 ```toml
 # Cargo.toml
@@ -53,7 +53,7 @@ pb-rs /path/to/your/protobuf/file.proto
 quick-protobuf = "0.6.0"
 ```
 
- - 3. Have fun
+ 3. Have fun
 
 ```rust
 extern crate quick_protobuf;
